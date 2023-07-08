@@ -39,31 +39,10 @@ namespace Algoritm.BaekJoon
 
             for (long i = 1; i <= number; i++)
             {
-                result *= i;
+                result = checked(result * i);
             }
 
             return result;
-        }
-
-        public static void Submit()
-        {
-            int maxT = int.Parse(Console.ReadLine());
-            int[] a = new int[maxT];
-            int[] b = new int[maxT];
-
-            for (int i = 0; i < maxT; i++)
-            {
-                string[] ab = Console.ReadLine().Split(' ');
-                a[i] = int.Parse(ab[0]);
-                b[i] = int.Parse(ab[1]);
-            }
-
-            for (int i = 0; i < maxT; i++)
-            {
-                Console.WriteLine(Q1001.Combination(a[i], b[i]));
-            }
-
-            Console.ReadKey();
         }
     }
 }

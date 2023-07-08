@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace Algoritm
+﻿namespace Algoritm
 {
     class Program
     {
         static void Main(string[] args)
         {
-            long maxT = long.Parse(Console.ReadLine());
+            long.TryParse(Console.ReadLine(), out long maxT);
             long[] a = new long[maxT];
             long[] b = new long[maxT];
 
@@ -22,8 +20,6 @@ namespace Algoritm
                 // 답안
                 Console.WriteLine(Combination(a[i], b[i]));
             }
-
-            Console.ReadKey();
         }
 
         public static long Combination(long N, long M)
@@ -46,7 +42,7 @@ namespace Algoritm
 
             for (long i = 1; i <= number; i++)
             {
-                result *= i;
+                result = checked(result * i);
             }
 
             return result;
