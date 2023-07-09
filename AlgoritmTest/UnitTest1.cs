@@ -1,8 +1,3 @@
-using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities;
-using System.Collections.Specialized;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography;
-
 namespace AlgoritmTest
 {
     [TestClass]
