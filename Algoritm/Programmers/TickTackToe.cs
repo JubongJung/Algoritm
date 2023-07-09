@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algoritm.Programmers
 {
-    /// <seealso cref="https://school.programmers.co.kr/learn/courses/30/lessons/160585?language=csharp"/>
+    /// <summary>
+    /// https://school.programmers.co.kr/learn/courses/30/lessons/160585?language=csharp
+    /// </summary>
     public class TickTackToe
     {
         public int IsTickTackToe(string[] stringBoard)
