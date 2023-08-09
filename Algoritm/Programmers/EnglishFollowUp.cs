@@ -12,7 +12,7 @@
                 prevWord
             };
 
-            for(int i = 2; i <= words.Count(); i++)
+            for(int i = 2; i <= words.Length; i++)
             {
                 string thisWord = words[i - 1];
                 int person = (i % n) > 0 ? (i % n) : n;
