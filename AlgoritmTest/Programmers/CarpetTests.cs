@@ -27,12 +27,6 @@ namespace Algoritm.Programmers.Tests
         }
 
         [TestMethod()]
-        public void GetWidthTest()
-        {
-            Assert.Fail();
-        }
-
-        [TestMethod()]
         public void GetCommonFactorTest()
         {
             var result = carpet.GetCommonFactor(100);
