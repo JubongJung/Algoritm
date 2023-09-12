@@ -35,7 +35,7 @@
 
             foreach(var item in recordsList)
             {
-                if(item.Value.OutMinute < item.Value.InMinute)
+                if(item.Value.OutMinute < item.Value.InMinute || item.Value.OutMinute == 0)
                 {
                     item.Value.Minute += 1439 - item.Value.InMinute;
                 }
