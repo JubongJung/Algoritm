@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
 
-namespace Algoritm.Programmers.Tests
+namespace AlgoritmTest.Programmers
 {
     [TestClass()]
     public class CarpetTests
@@ -15,7 +15,7 @@ namespace Algoritm.Programmers.Tests
         Carpet carpet = new Carpet();
 
         [TestMethod()]
-        [DataRow(10,2,4,3)]
+        [DataRow(10, 2, 4, 3)]
         [DataRow(8, 1, 3, 3)]
         [DataRow(24, 24, 8, 6)]
         public void solutionTest(int brown, int yellow, int left, int right)
@@ -30,8 +30,8 @@ namespace Algoritm.Programmers.Tests
         public void GetCommonFactorTest()
         {
             var result = carpet.GetCommonFactor(100);
-            
-            foreach(var item in result)
+
+            foreach (var item in result)
             {
                 Console.WriteLine($"{item[0]}, {item[1]}");
             }

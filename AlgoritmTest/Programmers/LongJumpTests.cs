@@ -1,13 +1,13 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Algoritm.Programmers;
 
-namespace Algoritm.Programmers.Tests
+namespace AlgoritmTest.Programmers
 {
     [TestClass()]
     public class LongJumpTests
     {
         [TestMethod()]
-        [DataRow(4,5)]
+        [DataRow(4, 5)]
         [DataRow(3, 3)]
         public void solutionTest(int n, int result)
         {

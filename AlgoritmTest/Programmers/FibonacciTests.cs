@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO.Pipes;
 
-namespace Algoritm.Programmers.Tests
+namespace AlgoritmTest.Programmers
 {
     [TestClass()]
     public class FibonacciTests

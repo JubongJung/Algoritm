@@ -1,6 +1,7 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting.Logging;
+﻿using Algoritm.Programmers;
+using Microsoft.VisualStudio.TestTools.UnitTesting.Logging;
 
-namespace Algoritm.Programmers.Tests
+namespace AlgoritmTest.Programmers
 {
     [TestClass()]
     public class SquareArrayTests
@@ -8,7 +9,7 @@ namespace Algoritm.Programmers.Tests
         private static SquareArray sa = new();
 
         [TestMethod()]
-        [DataRow(3,2,5, new int[] { 3, 2, 2, 3 })]
+        [DataRow(3, 2, 5, new int[] { 3, 2, 2, 3 })]
         [DataRow(4, 7, 14, new int[] { 4, 3, 3, 3, 4, 4, 4, 4 })]
         public void solutionTest(int n, long left, long right, int[] result)
         {
@@ -20,7 +21,7 @@ namespace Algoritm.Programmers.Tests
         }
 
         [TestMethod()]
-        [DataRow(3,2,3)]
+        [DataRow(3, 2, 3)]
         [DataRow(4, 5, 2)]
         [DataRow(4, 6, 3)]
         [DataRow(4, 7, 4)]

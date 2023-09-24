@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Algoritm.Programmers;
 
-namespace Algoritm.Programmers.Tests
+namespace AlgoritmTest.Programmers
 {
     [TestClass()]
     public class CommonMultipleTests

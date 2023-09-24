@@ -6,15 +6,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algoritm.Programmers.Tests
+namespace AlgoritmTest.Programmers
 {
     [TestClass()]
     public class SaleTests
     {
         [TestMethod()]
         [DataRow(
-            new string[] { "banana", "apple", "rice", "pork", "pot" }, 
-            new int[] { 3, 2, 2, 2, 1 }, 
+            new string[] { "banana", "apple", "rice", "pork", "pot" },
+            new int[] { 3, 2, 2, 2, 1 },
             new string[] { "chicken", "apple", "apple", "banana", "rice", "apple", "pork", "banana", "pork", "rice", "pot", "banana", "apple", "banana" },
             3
             )]

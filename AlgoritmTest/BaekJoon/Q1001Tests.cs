@@ -1,6 +1,7 @@
-﻿using System.Text;
+﻿using Algoritm.BaekJoon;
+using System.Text;
 
-namespace Algoritm.BaekJoon.Tests
+namespace AlgoritmTest.BaekJoon
 {
     [TestClass()]
     public class Q1001Tests

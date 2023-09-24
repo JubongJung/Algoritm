@@ -1,4 +1,6 @@
-﻿namespace Algoritm.Programmers.Tests
+﻿using Algoritm.Programmers;
+
+namespace AlgoritmTest.Programmers
 {
     [TestClass()]
     public class SequenceSumTests
@@ -15,7 +17,7 @@
             Console.WriteLine($"[{expected[0]}, {expected[1]}] [{answer[0]}, {answer[1]}]");
             Assert.AreEqual(expected[0], answer[0]);
             Assert.AreEqual(expected[1], answer[1]);
-            
+
         }
     }
 }

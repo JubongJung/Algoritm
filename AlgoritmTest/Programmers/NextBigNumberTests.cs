@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algoritm.Programmers.Tests
+namespace AlgoritmTest.Programmers
 {
     [TestClass()]
     public class NextBigNumberTests
@@ -20,7 +20,7 @@ namespace Algoritm.Programmers.Tests
 
             StringBuilder sb = new StringBuilder();
 
-            foreach(var num in  answer)
+            foreach (var num in answer)
             {
                 sb.Append(num.ToString() + ",");
             }

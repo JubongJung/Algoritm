@@ -1,4 +1,6 @@
-﻿namespace Algoritm.Programmers.Tests
+﻿using Algoritm.Programmers;
+
+namespace AlgoritmTest.Programmers
 {
     [TestClass()]
     public class MultiplicationProcessionTests

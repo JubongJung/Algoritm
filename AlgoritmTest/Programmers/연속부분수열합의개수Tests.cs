@@ -1,4 +1,6 @@
-﻿namespace Algoritm.Programmers.Tests
+﻿using Algoritm.Programmers;
+
+namespace AlgoritmTest.Programmers
 {
     [TestClass()]
     public class 연속부분수열합의개수Tests
