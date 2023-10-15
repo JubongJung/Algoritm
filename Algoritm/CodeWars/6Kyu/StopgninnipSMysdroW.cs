@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Algoritm.CodeWars._6Kyu
 {
+    /// <summary>
+    /// https://www.codewars.com/kata/5264d2b162488dc400000001/train/csharp
+    /// </summary>
     public class StopgninnipSMysdroW
     {
         public string SpinWords(string sentence)
@@ -14,7 +17,7 @@ namespace Algoritm.CodeWars._6Kyu
 
             for(int i = 0; i < words.Length; i++)
             {
-                if (words[i].Length > 5)
+                if (words[i].Length >= 5)
                 {
                     StringBuilder sb = new StringBuilder();   
 
